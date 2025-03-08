@@ -1,0 +1,12 @@
+Django==4.2
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+PyJWT==2.9.0
+psycopg2==2.9.9
+PyYAML==6.0.2
+uritemplate==4.1.1
+django-cors-headers==4.4.0
+# django-rest-swagger==2.2.0
+drf-yasg==1.21.8
+# django-qr-code==4.1.0
+qrcode[pil]

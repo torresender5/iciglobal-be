@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  ici_global:
+    image: ${DOCKER_IMAGE}
+    container_name: ${PROJECT_NAME}
+    build: .
+    working_dir: /ici_global
+    command: ./start_server.sh
+    volumes:
+      - .:/ici_global
+    ports:
+      - '8085:8000'
+    env_file:
+      - .env
+
