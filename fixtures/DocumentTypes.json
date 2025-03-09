@@ -1,0 +1,26 @@
+[
+{
+    "model": "commom.documenttype",
+    "pk": 1,
+    "fields": {
+        "document_type_description": "Cedula de identidad",
+        "document_type_code": "identity_card"
+    }
+},
+{
+    "model": "commom.documenttype",
+    "pk": 2,
+    "fields": {
+        "document_type_description": "Rif",
+        "document_type_code": "rif"
+    }
+},
+{
+    "model": "commom.documenttype",
+    "pk": 3,
+    "fields": {
+        "document_type_description": "Pasaporte",
+        "document_type_code": "pasport"
+    }
+}
+]
